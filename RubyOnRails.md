@@ -78,9 +78,3 @@ rvm rubygems current
 ```
 gem install rails
 ```
-```yaml
-en:
-  devise:
-    sessions:
-      signed_in: 'Signed in successfully.'
-```
