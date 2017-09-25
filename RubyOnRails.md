@@ -56,7 +56,7 @@ sudo apt-get install curl
 ```
 ### Install RVM
 ```
-\curl -L https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash
 ```
 ### Reload RVM
 ```
