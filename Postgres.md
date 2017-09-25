@@ -47,7 +47,7 @@ Shall the new role be allowed to create more new roles? (y/n) n
 First login to postgres
 sudo -u postgres psql
 Change the password
-ALTER USER &lt;Postgresuser&gt; WITH PASSWORD '&lt;newpassword&gt;';
+ALTER USER 'Postgresuser' WITH PASSWORD 'NEW PASSWORD';
 ```
 
 * Incase of error ‘FATAL: Ident authentication failed for user ‘ , on development 
